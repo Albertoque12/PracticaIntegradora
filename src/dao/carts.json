@@ -1,0 +1,74 @@
+[
+  {
+    "products": [],
+    "id": 1
+  },
+  {
+    "products": [],
+    "id": 2
+  },
+  {
+    "products": [],
+    "id": 3
+  },
+  {
+    "0": {
+      "products": [
+        {
+          "id": 1,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    "1": {
+      "products": [],
+      "id": 2
+    },
+    "2": {
+      "products": [],
+      "id": 3
+    },
+    "id": 4
+  },
+  {
+    "0": {
+      "products": [
+        {
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    "1": {
+      "products": [],
+      "id": 2
+    },
+    "2": {
+      "products": [],
+      "id": 3
+    },
+    "3": {
+      "0": {
+        "products": [
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ],
+        "id": 1
+      },
+      "1": {
+        "products": [],
+        "id": 2
+      },
+      "2": {
+        "products": [],
+        "id": 3
+      },
+      "id": 4
+    },
+    "id": 5
+  }
+]
