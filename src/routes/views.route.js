@@ -1,6 +1,5 @@
 import { Router } from "express";
 import usersManager from '../dao/users.manager.js'
-import courseManager from '../dao/courses.manager.js'
 import productsManager from '../dao/products.manager.js'
 import cartsManager from '../dao/carts.manager.js'
 
@@ -11,14 +10,6 @@ vRouter.get('/', async (req, res) => {
     res.render('users', {
         title: 'Users',
         users
-    })
-})
-
-vRouter.get('/courses', async (req, res) => {
-    const courses = await courseManager.getAll()
-    res.render('courses', {
-        title: 'Courses',
-        courses
     })
 })
 
@@ -39,7 +30,7 @@ vRouter.get('/carts', async (req, res) => {
 })
 
 vRouter.get('/messages', async (req, res) => {
-    res.render('messages', {})
+    res.render('chat', {})
 })
 
 

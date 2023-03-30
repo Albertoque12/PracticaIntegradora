@@ -3,7 +3,6 @@ import uRouter from "./routes/users.route.js"
 import handlebars from 'express-handlebars'
 import fileDirName from "./utils.js"
 import vRouter from "./routes/views.route.js"
-import cRouter from "./routes/courses.route.js"
 import mongoose from "mongoose"
 import config from '../data.js'
 import pRouter from "./routes/products.route.js"
